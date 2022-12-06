@@ -126,7 +126,7 @@ import {
         const carts = getCarts();
   
         const client = new ApolloClient({
-          uri: `http://localhost:8081/graphql`,
+          uri: `https://marketplace.fastgrowth.app/graphql`,
           cache: new InMemoryCache(),
         });
   
@@ -150,7 +150,7 @@ import {
           };
   
           const shopClient = new ApolloClient({
-            uri: `https://${domain}/api/2021-10/graphql.json`,
+            uri: `https://${domain}/api/2022-10/graphql.json`,
             headers: {
               "X-Shopify-Storefront-Access-Token": shop.storefrontAccessToken,
             },

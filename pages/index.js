@@ -127,7 +127,7 @@ const ShopSection = ({ id, domain, storefrontAccessToken }) => {
   useEffect(() => {
     async function fetchData() {
       const client = new ApolloClient({
-        uri: `https://${domain}/api/2021-10/graphql.json`,
+        uri: `https://${domain}/api/2022-10/graphql.json`,
         headers: {
           "X-Shopify-Storefront-Access-Token": storefrontAccessToken,
         },

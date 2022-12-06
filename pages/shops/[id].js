@@ -650,7 +650,7 @@ import {
       if (data && data.shop) {
         const { domain, storefrontAccessToken } = data.shop;
         const client = new ApolloClient({
-          uri: `https://${domain}/api/2021-10/graphql.json`,
+          uri: `https://${domain}/api/2022-10/graphql.json`,
           headers: {
             "X-Shopify-Storefront-Access-Token": storefrontAccessToken,
           },

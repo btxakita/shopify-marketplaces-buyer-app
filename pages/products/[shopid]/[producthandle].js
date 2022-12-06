@@ -171,7 +171,7 @@ const Product = () => {
       });
 
       const shopGQLClient = new ApolloClient({
-        uri: `https://${data.shop.domain}/api/2021-10/graphql.json`,
+        uri: `https://${data.shop.domain}/api/2022-10/graphql.json`,
         headers: {
           "X-Shopify-Storefront-Access-Token": data.shop.storefrontAccessToken,
         },

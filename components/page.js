@@ -50,7 +50,7 @@ const Page = ({ children, subHeader }) => {
                 alignItems="center"
               >
                 <NextLink href="/">
-                  <Link href=""><img src="/logo.svg" alt="Mockingbird" /></Link>
+                  <Link href=""><img src="/logo.svg" alt="Heyup" /></Link>
                 </NextLink>
                 <NextLink href="/cart">
                   <Link href="/cart">
@@ -97,7 +97,7 @@ const Page = ({ children, subHeader }) => {
           }}
         >
           <Link href="https://www.shopify.com/" target="_blank" rel="noopener"><img alt="Shopify" src="/shopify-logo.svg" /></Link>
-          <Typography textAlign="center" variant="body1">MockingBird is a Shopify demo that uses <span style={{fontWeight: 600}}>Marketplace Kit</span> to build <span style={{fontWeight: 600}}>Marketplaces</span></Typography>
+          <Typography textAlign="center" variant="body1">Heyup is a Shopify demo that uses <span style={{fontWeight: 600}}>Marketplace Kit</span> to build <span style={{fontWeight: 600}}>Marketplaces</span></Typography>
         </Stack>
       </footer>
     </>
